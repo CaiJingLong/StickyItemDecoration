@@ -25,3 +25,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     provided 'com.android.support:recyclerview-v7:25.1.0'
 }
+
+apply from:'../jitpack.gradle'
